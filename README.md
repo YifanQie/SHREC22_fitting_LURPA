@@ -9,4 +9,6 @@ The files include:
 
 1. load the point cloud from the SHREC22 track using main_SHREC22_dataprepare.m. The point clouds will be saved as images. (one-by-one for the purpose of checking)
 2. load the all the 46000 point clouds from the SHREC22 track using DL_SHREC22_dataprepare.m and save them as images.
-3. 
+3. dl_SHREC_PCA_v2.m is used for traing the ALexNet using the generated 46000 images. (95%-5% splits)
+4. my_net_trained_opti.mat is the parameters obtained after training
+5. 
