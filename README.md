@@ -11,4 +11,4 @@ The files include:
 2. load the all the 46000 point clouds from the SHREC22 track using DL_SHREC22_dataprepare.m and save them as images.
 3. dl_SHREC_PCA_v2.m is used for traing the ALexNet using the generated 46000 images. (95%-5% splits)
 4. my_net_trained_opti.mat is the parameters obtained after training
-5. 
+5. SHREC22Fitting.m loads the parameters for fine-tuned AlexNet and use it for surface type identification; Than a fitting process is conducted according to the identification results.
