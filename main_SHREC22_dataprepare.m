@@ -5,10 +5,8 @@ clc;
 tic
 % %%%%
 % 1. read the data from .txt file, find the vertex
-% 2. calculate the curvatures and show the value of the curvatures on the file
-% 3. region growing by curvedness
-% 4. Local shape type identitfication
-% 5. visualization of the surface types
+% 2. rotate the point clouds
+% 3. save the image
 % %%%%
 
 tic % strat counting the time
